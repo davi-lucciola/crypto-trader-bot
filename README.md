@@ -11,7 +11,7 @@ Each instance can be setup to trade the coins of your preference based on the en
 | Layer      | Tech                              |
 |------------|-----------------------------------|
 | Backend    | Python |
-| External Services  | Binance API |
+| External Services  | [Binance API](https://developers.binance.com/docs/binance-spot-api-docs/rest-api/) |
 | DevOps  | Docker |
 
 ⸻
@@ -85,6 +85,8 @@ crypto-trader-bot
 ### Build and run everything
 
 By default, the docker-compose have 3 containers trading "SOL", "BTC" and "ETH" but you can configure like you want.
+
+See the [Binance API oficial documentation](https://developers.binance.com/docs/binance-spot-api-docs/rest-api/) to get all trade symbols
 
 `docker-compose up --build`
 

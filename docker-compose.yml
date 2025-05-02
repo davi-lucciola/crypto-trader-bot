@@ -8,9 +8,10 @@ services:
       
       EMAIL: ${EMAIL}
       EMAIL_PASSWORD: ${EMAIL_PASSWORD}
+      SMTP_HOST: 'smtp.gmail.com'
+      SMTP_PORT: 587
       SENT_TO_EMAIL: ${SENT_TO_EMAIL}
       
-
       CRYPTO: 'SOL'
       TRADE_CODE: 'SOLUSDT'
       POSITION: true
@@ -26,6 +27,8 @@ services:
       
       EMAIL: ${EMAIL}
       EMAIL_PASSWORD: ${EMAIL_PASSWORD}
+      SMTP_HOST: 'smtp.gmail.com'
+      SMTP_PORT: 587
       SENT_TO_EMAIL: ${SENT_TO_EMAIL}
 
       CRYPTO: 'BTC'
@@ -43,6 +46,8 @@ services:
       
       EMAIL: ${EMAIL}
       EMAIL_PASSWORD: ${EMAIL_PASSWORD}
+      SMTP_HOST: 'smtp.gmail.com'
+      SMTP_PORT: 587
       SENT_TO_EMAIL: ${SENT_TO_EMAIL}
 
       CRYPTO: 'ETH'
