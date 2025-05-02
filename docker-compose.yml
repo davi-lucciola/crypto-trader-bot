@@ -1,0 +1,52 @@
+services:
+  sol_trader_bot:
+    container_name: 'sol'
+    build: .
+    environment:
+      BINANCE_KEY: ${BINANCE_KEY}
+      BINANCE_SECRET: ${BINANCE_SECRET}
+      
+      EMAIL: ${EMAIL}
+      EMAIL_PASSWORD: ${EMAIL_PASSWORD}
+      SENT_TO_EMAIL: ${SENT_TO_EMAIL}
+      
+
+      CRYPTO: 'SOL'
+      TRADE_CODE: 'SOLUSDT'
+      POSITION: true
+      TRADE_PERCENTAGE: 0.3
+      PRECISION: 3
+  
+  btc_trader_bot:
+    container_name: 'btc'
+    build: .
+    environment:
+      BINANCE_KEY: ${BINANCE_KEY}
+      BINANCE_SECRET: ${BINANCE_SECRET}
+      
+      EMAIL: ${EMAIL}
+      EMAIL_PASSWORD: ${EMAIL_PASSWORD}
+      SENT_TO_EMAIL: ${SENT_TO_EMAIL}
+
+      CRYPTO: 'BTC'
+      TRADE_CODE: 'BTCUSDT'
+      POSITION: true
+      TRADE_PERCENTAGE: 0.1
+      PRECISION: 5
+
+  eth_trader_bot:
+    container_name: 'eth'
+    build: .
+    environment:
+      BINANCE_KEY: ${BINANCE_KEY}
+      BINANCE_SECRET: ${BINANCE_SECRET}
+      
+      EMAIL: ${EMAIL}
+      EMAIL_PASSWORD: ${EMAIL_PASSWORD}
+      SENT_TO_EMAIL: ${SENT_TO_EMAIL}
+
+      CRYPTO: 'ETH'
+      TRADE_CODE: 'ETHUSDT'
+      POSITION: true
+      TRADE_PERCENTAGE: 0.3
+      PRECISION: 3
