@@ -1,6 +1,6 @@
 # 💲 Crypto Trader Bot
 
-Crypto Trader Bot is a bot made to trade crypto currency based on moving avarage of the coins to identify if they are in a growth tendency or drop tendency and buy or sell depending of your position and tendency.
+Crypto Trader Bot is a bot made to trade cryptocurrency based on moving avarage of the coins to identify if they are in a growth tendency or drop tendency and buy or sell depending of your position and tendency.
 
 Each instance can be setup to trade the coins of your preference based on the enviroment variables
 
@@ -17,8 +17,8 @@ Each instance can be setup to trade the coins of your preference based on the en
 ⸻
 
 ## 🚀 Features
-- 🔒 Trade any crypto currency you like
-- 💻 Configure each instance to trade your preference crypto currency
+- 🔒 Trade any cryptocurrency you like
+- 💻 Configure each instance to trade your preference cryptocurrency
 - 🐳 Dockerized development environment
 
 ⸻
